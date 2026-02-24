@@ -1,0 +1,1 @@
+# string_builder and it required to alterate the string from lowercase to uppercase character by character
