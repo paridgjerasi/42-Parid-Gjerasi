@@ -1,15 +1,16 @@
 # no prototpye for this yet
-def strlen(stringg):
+
+#built in version idk if test allows
+x = 'Hello'
+x_length = len(x)
+print(x_length) 
+
+#manual version similar to C logic
+def strlen(string) -> int:
     i = 0
-
-    for zoo in stringg:
-        i = i + 1
-
+    for index in string:
+        i = i+1
     return i
-
-
 def main():
-    print(strlen("hello"))
-
-
+    print (strlen("Hello"))
 main()
